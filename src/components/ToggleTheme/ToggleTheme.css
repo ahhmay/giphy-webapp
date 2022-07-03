@@ -1,0 +1,19 @@
+.darkButton {
+    background-color: white;
+    color: #161519;
+    font-size: 12px;
+    margin-left: 4%;
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.lightButton {
+    background-color: #161519;
+    color: white;
+    font-size: 12px;
+    margin-left: 4%;
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor: pointer;
+}

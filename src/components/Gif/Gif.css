@@ -1,0 +1,20 @@
+.box {
+    max-width: fit-content;
+    border-radius: 1rem;
+    padding: 2px;
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 100%;
+    vertical-align: bottom;
+}
+
+.gifStyle {
+    margin: 1%;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+    .gifStyle {
+        width: 80%;
+    }
+}

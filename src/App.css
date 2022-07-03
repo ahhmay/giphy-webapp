@@ -1,0 +1,98 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.px-10 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.space-around {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.light {
+    background-color: white;
+}
+
+.dark {
+    background-color: #161519;
+}
+
+.lightLine {
+    width: 100%;
+    border-width: 5px;
+    border-color: #161519;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.darkLine {
+    width: 100%;
+    border-width: 5px;
+    border-color: white;
+    margin: 0;
+    margin-bottom: 2%;
+    z-index: 33;
+}
+
+.darkDiv {
+    height: 5%;
+    background-color: #161519;
+    z-index: 100;
+}
+
+.right-align {
+    display: flex;
+    justify-content: end;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+}
+
+.darkTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0;
+}
+
+.lightTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #161519;
+    margin-bottom: 0;
+}
+
+.grad1 {
+    height: 5px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+@media only screen and (max-width: 768px) {
+    .center-align {
+        display: flex;
+        justify-content: center;
+    }
+}

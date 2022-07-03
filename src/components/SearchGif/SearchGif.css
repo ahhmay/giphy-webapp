@@ -1,0 +1,21 @@
+.darkInput {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 16px 0px 16px;
+    border: 2px white solid;
+    border-radius: 1rem;
+    color: white;
+    background-color: #161519;
+}
+
+.lightInput {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 16px 0px 16px;
+    border: 2px #161519 solid;
+    border-radius: 1rem;
+    color: #161519;
+    background-color: white;
+}

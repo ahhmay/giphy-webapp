@@ -1,0 +1,18 @@
+.dialogContainer {
+    width: 200px;
+    height: 200px;
+    z-index: 22;
+    background-color: aqua;
+    display: flex;
+    margin: auto;
+}
+
+.dark {
+    background-color: #161519;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: #161519;
+}
