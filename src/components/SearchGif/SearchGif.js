@@ -28,4 +28,4 @@ const SearchGif = ({setSearchQuery}) => {
         </div>
     )
 }
-export default React.memo(SearchGif);
+export default memo(SearchGif);

@@ -26,7 +26,7 @@ const DialogPopup = ({gifUsername, gifUrl, openDialog}) => {
             </DialogTitle>
             <DialogContent>
                 <DialogContentText>
-                    <img src={gifUrl}/>
+                    <img src={gifUrl} alt={gifUsername}/>
                 </DialogContentText>
             </DialogContent>
         </Dialog>
